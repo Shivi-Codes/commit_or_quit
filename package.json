@@ -1,0 +1,27 @@
+{
+  "name": "commit_or_quit",
+  "version": "1.0.0",
+  "description": "website for commit or quit",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass sass/styles.scss css/styles.css --no-source-map --style=compressed",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shivi-Codes/commit_or_quit.git"
+  },
+  "author": "Shivi-Codes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shivi-Codes/commit_or_quit/issues"
+  },
+  "homepage": "https://github.com/Shivi-Codes/commit_or_quit#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3"
+  },
+  "devDependencies": {
+    "sass": "^1.85.1"
+  }
+}

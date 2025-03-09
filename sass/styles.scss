@@ -1,0 +1,13 @@
+// 2️⃣ Override Bootstrap colors BEFORE importing Bootstrap  
+$primary: #ff33e0;  // Your custom primary color  
+$secondary: #ad4ae2; // Your custom secondary color  
+$border-radius: 20px; // Border radius (which is working ✅)  
+
+// 1️⃣ Import Bootstrap's core functions & variables  
+@import "../node_modules/bootstrap/scss/functions";  
+@import "../node_modules/bootstrap/scss/variables";  
+
+
+
+// 3️⃣ Import the rest of Bootstrap  
+@import "../node_modules/bootstrap/scss/bootstrap";  
